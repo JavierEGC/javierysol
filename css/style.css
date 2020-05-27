@@ -1,0 +1,332 @@
+
+/*GENERALES*/
+body{
+    background-color: #FFC2E8;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.topmargin-lg{ margin-top: 180px; }
+.topmargin-md{ margin-top: 60px; }
+.topmargin-sm{ margin-top: 30px; }
+.topmargin-xs{ margin-top: 15px; }
+
+/*NAVBAR*/
+.navbar{
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 60px;
+    border-bottom: 4px solid #A00000;
+    text-align: center;
+    
+}
+
+.navbar h2{
+    font-family: 'Lobster', cursive;
+}
+
+.navbar .logo-vet{
+    min-width: 60px;
+    max-width: 80px;
+}
+
+.navbar a{
+    color: #AFAFAF;
+    font-size: 22px;
+    cursor: context-menu;
+}
+
+.navbar .collapse a:hover{
+    color: #A2A2A2;
+    font-weight: bold;
+}
+
+.nav-link{ color: #1a1a1a; }
+.nav-link:hover{ color: #1a1a1a; }
+
+.navbar-toggler i{ font-size: 25px; }
+.navbar-toggler:focus{ outline: none; }
+
+
+
+/*IMAGEN*/
+#image{
+    margin-top: 80px;
+    clip-path: polygon(51% 6%, 100% 0, 100% 100%, 50% 94%, 0 100%, 0 0);
+    background: url(../imagenes/foto1.jpg); 
+    background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/foto1.jpg); 
+    background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/foto3.jpg); 
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+
+#image h1{
+    margin-top: 100px;
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#image h3{
+    font-weight: bold;
+}
+
+#moment{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 5% 50%);
+    background:url(../imagenes/momento2.jpg);   /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.377), #b92c27a2),url(../imagenes/momento2.jpg); 
+    background: linear-gradient(to right, rgba(21, 101, 192, 0.575), #b92c2760),url(../imagenes/momento2.jpg); 
+
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+
+
+#moment h1{
+    margin-top: 100px;
+    font-size: 230px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#moment2{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    clip-path: circle(62.1% at 50% 50%);
+    background: url(../imagenes/momento5.jpg);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf9170, #8360c37e),url(../imagenes/momento5.jpg);  
+    background: linear-gradient(to right, #2ebf9148, #8360c381),url(../imagenes/momento5.jpg);
+
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+
+
+#moment2 h1{
+    margin-top: 100px;
+    font-size: 230px;
+    font-family: 'Dancing Script', cursive;
+}
+#moment3{
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+    background: url(../imagenes/momento6.jpg); 
+    background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/momento6.jpg); 
+    background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/momento6.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+
+
+#moment3 h1{
+    margin-top: 100px;
+    font-size: 230px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#history{
+    background-color: #F0EAEE;
+    min-height: 500px;
+}
+
+#history h1{
+    
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    color: teal;
+}
+#history p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#canciones{
+    background-color: #FCDFF1;
+}
+
+#canciones h1{
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+}
+
+.cancion1{
+    background: url(../imagenes/cancion1.JPG); 
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+.cancion1 h2{
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+}
+.cancion1 h3{
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+
+.cancion2{
+    background: url(../imagenes/cancion2.JPG); 
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    color: #ffffff;
+}
+.cancion2 h2{
+    font-size: 90px;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.cancion2 h3{
+    font-size: 60px;
+    color: #1a1a1a;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+#footer{
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    background:#FF4D4D;
+    border-top: 4px solid #DFDFDF;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .container{
+        min-width: 1050px;
+    }
+}
+/**/
+@media (max-width: 575.98px) {
+    
+    #image{
+        background: url(../imagenes/foto1.jpg);
+        background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/foto1.jpg); 
+        background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/foto1.jpg); 
+    }
+    .navbar .collapse a:hover{
+        color: #ffffff;
+        font-weight: bold;
+        background: #FFC2E8;
+    }
+    .navbar a{
+        font-size: 20px;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .navbar h2{
+        font-size: 24px;
+    }
+    #image h1{
+        font-size: 60px;
+    }
+
+    #moment{
+        background: url(../imagenes/momento8.jpg); 
+        background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/momento8.jpg); 
+        background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/momento8.jpg); 
+        
+    }
+    #moment h1{
+        margin-top: 180px;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+    }
+    #moment2{
+        background: url(../imagenes/momento4.jpg); 
+        background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/momento4.jpg); 
+        background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/momento40.jpg); 
+    }
+    #moment2 h1{
+        margin-top: 180px;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+    }
+    #moment3{
+        background: url(../imagenes/momento5.jpg); 
+        background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/momento5.jpg); 
+        background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/momento5.jpg); 
+    }
+    #moment3 h1{
+        margin-top: 180px;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #history h1{
+        font-size: 45px;
+    }
+    #history h3{
+        font-size: 25px;
+    }
+    #history p{
+        font-size: 13px;
+    }
+
+
+    #canciones{
+        padding: 30px;
+    }
+    #canciones h1{
+        font-size: 45px;
+    }
+    .cancion1{
+        width: 100%;
+        background: url(../imagenes/cancion1.JPG); 
+        background-size: cover;
+        padding-top: 90px;
+        min-height: 800px;
+        color: #ffffff;
+    }
+    .cancion1 h2{
+        font-size: 60px;
+    }
+    .cancion1 h3{
+        font-size: 40px;
+    }
+
+    .cancion2{
+        background: url(../imagenes/cancion2.JPG); 
+        background-size: cover;
+        padding-top: 90px;
+        min-height: 800px;
+        color: #ffffff;
+    }
+    .cancion2 h2{
+        font-size: 60px;
+    }
+    .cancion2 h3{
+        font-size: 40px;
+    }
+
+
+    #footer{
+        font-size: 15px;
+    }
+}
