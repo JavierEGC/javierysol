@@ -23,7 +23,6 @@ body{
     text-align: center;
     
 }
-
 .navbar h2{
     font-family: 'Lobster', cursive;
 }
@@ -56,9 +55,9 @@ body{
 #image{
     margin-top: 80px;
     clip-path: polygon(51% 6%, 100% 0, 100% 100%, 50% 94%, 0 100%, 0 0);
-    background: url(../imagenes/foto1.jpg); 
-    background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/foto1.jpg); 
-    background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/foto3.jpg); 
+    background: url(../imagenes/foto12.jpg); 
+    background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.466),#1565c075),url(../imagenes/foto12.jpg); 
+    background: linear-gradient(to right, rgba(21, 101, 192, 0.329), #b92c2771),url(../imagenes/foto12.jpg); 
     background-size: cover;
     padding-top: 90px;
     min-height: 800px;
@@ -83,7 +82,6 @@ body{
     background:url(../imagenes/momento2.jpg);   /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(21, 101, 192, 0.377), #b92c27a2),url(../imagenes/momento2.jpg); 
     background: linear-gradient(to right, rgba(21, 101, 192, 0.575), #b92c2760),url(../imagenes/momento2.jpg); 
-
     background-size: cover;
     padding-top: 90px;
     min-height: 800px;
@@ -198,6 +196,33 @@ body{
     font-size: 60px;
     color: #1a1a1a;
     font-family: 'Lobster', cursive;
+}
+
+
+#interrogantes{
+    min-height: 800px;
+}
+#interrogantes .int{
+    min-height: 400px;
+}
+#interrogantes h5{
+    font-size: 60px;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    color: #A00000;
+    margin-bottom: 30px;
+}
+#interrogantes p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: #FFCDE2;
+    border-radius: 15px;
+    padding:25px
+}
+#interrogantes img{
+    height: 250px;
+    border-radius: 5px;
+
 }
 
 
@@ -324,6 +349,23 @@ body{
     .cancion2 h3{
         font-size: 40px;
     }
+
+    #interrogantes h5{
+        font-size: 35px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    #interrogantes p{
+        font-size: 13px;
+        padding:25px
+    }
+    #interrogantes img{
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+
 
 
     #footer{
